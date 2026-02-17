@@ -1,0 +1,14 @@
+optitrack_client:
+  ros__parameters:
+    connection_type: "Unicast"
+    server_address: "192.168.1.113"
+    local_address: "192.168.1.200"
+    multicast_address: "239.255.42.99"
+    server_command_port: 1510
+    server_data_port: 1511
+    namespace: "optitrack"
+    world_frame: "map"
+    optitrack_frame: "optitrack"
+    map_xyz: [0.0, 0.0, 0.0]
+    map_rpy: [0.0, 0.0, 0.0]
+    map_rpy_in_degrees: false
