@@ -5,6 +5,7 @@
 [![ROS 2 Humble_Compatible](https://img.shields.io/badge/ROS%202-Humble-blue)](https://docs.ros.org/en/humble/index.html)
 [![ROS 2 Jazzy_Compatible](https://img.shields.io/badge/ROS%202-Jazzy-blue)](https://docs.ros.org/en/jazzy/index.html)
 [![PX4 Compatible](https://img.shields.io/badge/PX4-Autopilot-pink)](https://github.com/PX4/PX4-Autopilot)
+[![evannsmc.com](https://img.shields.io/badge/evannsmc.com-Project%20Page-blue)](https://www.evannsmc.com/projects/mocap4px4)
 
 `optitrack4px4` is a ROS 2 (C++) package that streams OptiTrack motion capture data into the PX4 EKF using External Vision fusion, enabling position and heading fusion for hardware flight experiments. The package connects to OptiTrack's Motive software via the NatNet protocol, converts Y-up ENU measurements to NED, and publishes pose data in quaternions as well as euler angles under the rigid body name as defined in Motive.
 
@@ -299,6 +300,10 @@ optitrack4px4/
 > Units follow ROS conventions (positions in meters, rotations in radians) in downstream consumers; ensure your system uses consistent units end-to-end.
 
 ---
+
+## Website
+
+Part of the [**evannsmc** open-source portfolio](https://www.evannsmc.com/projects) — [project page →](https://www.evannsmc.com/projects/mocap4px4)
 
 ## License & attribution
 
