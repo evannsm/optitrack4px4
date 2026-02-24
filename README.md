@@ -303,7 +303,8 @@ optitrack4px4/
 
 ## Website
 
-Part of the [**evannsmc** open-source portfolio](https://www.evannsmc.com/projects) — [project page →](https://www.evannsmc.com/projects/mocap4px4)
+- [evannsmc.com](https://www.evannsmc.com)
+- [Project page](https://www.evannsmc.com/projects/mocap4px4)
 
 ## License & attribution
 
